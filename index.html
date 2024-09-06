@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button  class="fa-solid fa-magnifying-glass" id="searchbtn">
+
+                </button>
+            </div>
+        </div>
+        <div class="location-not-found">
+            <h1>sorry,location not found!!!</h1>
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/ai-security-illustration-download-in-svg-png-gif-file-formats--artificial-intelligence-smart-solutions-pack-science-technology-illustrations-8634766.png?f=webp">
+        </div>
+        <div class="weather-body">
+            <img src="https://media.istockphoto.com/id/1392278078/vector/sun-and-cloud-with-rain-drops-weather-concept-3d-vector-icon-cartoon-minimal-style.jpg?s=612x612&w=0&k=20&c=7ltfH6gTpng1ccretR29TYDY5lDnyTTtqttaXzs6tis=" >
+            
+
+            <div class="weather-box">
+                <p id="temperature">0<sup>°C</sup></p>
+                <p id="description">light rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind_speed">12km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/6f6f9f14a2.js" crossorigin="anonymous"></script>
+</body>
+</html>
